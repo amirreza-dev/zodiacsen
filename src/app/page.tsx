@@ -75,7 +75,7 @@ export default function Home() {
        <button
         key={num}
         onClick={() => handleCountSelection(num)}
-        className='px-6 py-2 bg-blue-600 rounded hover:bg-blue-700'
+        className='px-6 py-2 bg-red-600 rounded hover:bg-red-700'
        >
         {num}
        </button>
@@ -143,7 +143,7 @@ export default function Home() {
      <textarea
       id='comment'
       name='comment'
-      rows={4}
+      rows={8}
       className='block w-full mt-8 rounded-md border-0 py-1.5 text-white shadow-sm ring-1 ring-gray-600 sm:text-sm sm:leading-6'
       defaultValue={''}
      />
