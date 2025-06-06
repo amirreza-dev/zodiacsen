@@ -151,7 +151,7 @@ export default function Home() {
    )}
 
    <footer className='mt-20 text-sm text-gray-400'>
-    توسعه توسط <a href='https://amirreza.dev'>امیررضا</a>
+    طراحی و توسعه توسط <a href='https://amirreza.dev'>امیررضا</a>
    </footer>
   </main>
  );
